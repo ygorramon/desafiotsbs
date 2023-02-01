@@ -23,21 +23,21 @@
                     <label for="nomeMae">Nome da Mãe/Pai:</label>
 
                     <div>
-                        <input type="text" readonly class="form-control" id="nomeMae" value="{{$challenge->client->name}}" placeholder="nomeMae">
+                        <input type="text" readonly class="form-control" id="nomeMae"  placeholder="nomeMae">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <label for="nomeBebe">Nome do(a) Bebê:</label>
 
                     <div>
-                        <input type="text" readonly class="form-control" id="nomeBebe" value="{{$challenge->client->nameBaby}}" placeholder="nomeMae">
+                        <input type="text" readonly class="form-control" id="nomeBebe" value="" placeholder="nomeMae">
                     </div>
                 </div>
                  <div class="col-md-4">
                     <label for="nomeBebe">Email:</label>
 
                     <div>
-                        <input type="text" readonly class="form-control" id="nomeBebe" value="{{$challenge->client->email}}" placeholder="nomeMae">
+                        <input type="text" readonly class="form-control" id="nomeBebe" value="" placeholder="nomeMae">
                     </div>
                 </div>
             </div>
