@@ -107,8 +107,12 @@ class ChallengeController extends Controller
 
       $challenge = $this->repository->with('client')->find($id);
 
+      if ($challenge->tipo == '1') {
+         return view('admin.challenges.meus.new-black', compact('challenge'));
+      } else {
+         return view('admin.challenges.meus.show-black', compact('challenge'));
+      }
 
-      return view('admin.challenges.meus.show-black', compact('challenge'));
    }
 
    public function showMyChallengeNoWindow($id)
