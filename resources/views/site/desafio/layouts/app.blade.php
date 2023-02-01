@@ -35,7 +35,7 @@
       </li>
  <li class="bold"><a class="waves-effect waves-cyan " href="{{route('my.queries')}}"><i class="material-icons">help_outline</i><span class="menu-title" data-i18n="Mail">Minhas Perguntas</span></a>
       </li>
-      <li class="bold"><a class="waves-effect waves-cyan " href="https://api.whatsapp.com/send?phone=558893174685" target="_blank "><i class="material-icons">headset_mic</i><span class="menu-title" data-i18n="Mail">Suporte Técnico</span></a>
+      <li class="bold"><a class="waves-effect waves-cyan " href="https://api.whatsapp.com/send?phone=5588996620215" target="_blank "><i class="material-icons">headset_mic</i><span class="menu-title" data-i18n="Mail">Suporte Técnico</span></a>
       </li>
       </li>
 

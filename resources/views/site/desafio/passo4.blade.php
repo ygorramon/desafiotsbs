@@ -6,7 +6,16 @@
 
 
 @section('content')
-
+<div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Passo 4 - Associações</h4>
+           
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cgh0fxh-cdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
+        </div>
+    </div>
 
     <div class="row">
 
@@ -270,6 +279,12 @@
 
     <script>
          $(document).ready(function() {
+
+            $('.modal').modal({
+
+});
+$('#modal1').modal('open');
+
         $('#associacoes_incomodam_sim').hide();
 
         $('#associacoes_incomodam').on('change', function() {

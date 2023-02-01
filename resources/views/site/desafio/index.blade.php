@@ -13,12 +13,12 @@
                 <div id="card-widgets">
                     <div class="row">
                         <div class="col s12">
-                        <!--div id="modal1" class="modal">
+                        <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Informação</h4>
-      <p>Informo que dias 14 e 15 não haverá suporte, pois será feriado. As atividades voltarão na segunda-feira, dia 18/04/2022. </p>
-    Dr. Odilo Queiroz
-    </div>
+      <p>O número do Suporte Técnico do Desafio de 7 Dias mudou: </p>
+      <p> 5588996620215</p>
+      <a href="https://api.whatsapp.com/send?phone=5588996620215" target="_blank " class="btn"> Suporte Técnico </a>    </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
     </div>
@@ -67,7 +67,7 @@
                             </ul>
                             <div class="card-alert card purple lighten-5">
             <div class="card-content purple-text">
-              <a href="https://api.whatsapp.com/send?phone=558893174685" target="_blank " class="btn"> Suporte Técnico </a>
+              <a href="https://api.whatsapp.com/send?phone=5588996620215" target="_blank " class="btn"> Suporte Técnico </a>
             </div>
           </div>
                         </div>
@@ -90,7 +90,7 @@
 
 
 @section('js')
-<!--
+
 <script>
 $(document).ready(function(){
     $('.modal').modal({
@@ -99,5 +99,5 @@ $(document).ready(function(){
     $('#modal1').modal('open');
   });
   </script>
--->
+
 @endsection

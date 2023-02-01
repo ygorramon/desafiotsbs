@@ -9,10 +9,13 @@
 <div id="modal1" class="modal">
     <div class="modal-content">
         <h4>PASSO 2 - Causa dos Despertares</h4>
+
         <textarea class="materialize-textarea">Agora vamos analisar o Passo 2, que é entender por que o seu bebê está acordando e aqui vamos fazer uma revisão detalhada de cada uma das principais causas:
 
 E após o preenchimento do seu desafio, você poderá tirar todas as suas dúvidas, dificuldades, particularidades e resultados no seu chat exclusivo. Não se preocupe, que o seu desafio não se resume a uma pré-análise automática!
 </textarea>
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z7hVH-ElzdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
     </div>
     <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>

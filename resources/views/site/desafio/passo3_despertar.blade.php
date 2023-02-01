@@ -14,6 +14,7 @@ Aqui vamos avaliar o horário e o seu ritual do bom dia!
 
 E após o preenchimento do seu desafio, você poderá tirar todas as suas dúvidas, dificuldades, particularidades e resultados no seu chat exclusivo. Não se preocupe, que o seu desafio não se resume a uma pré-análise automática!
 </textarea>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z8MkZ7e7a4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>

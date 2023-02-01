@@ -12,10 +12,24 @@
 
 <div class="row">
     <div class="col s12">
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>PASSO 1 - VÍDEO EXPLICATIVO</h4>
+      <div class="video-container">
+      <iframe height="250"  src="https://www.youtube.com/embed/heyGFKnpYP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+  </div>
+
         <div class="card">
             @if ($errors->any())
             <div class="row">
                 <div class="col s12">
+                   
                     <div class="card-panel red">
                         <span class="white-text">
                             @foreach ($errors->all() as $error)
@@ -646,4 +660,17 @@
             }
         });
     </script>
+
+
+
+<script>
+$(document).ready(function(){
+    $('.modal').modal({
+       
+    });
+    $('#modal1').modal('open');
+  });
+  </script>
+
+
     @endsection

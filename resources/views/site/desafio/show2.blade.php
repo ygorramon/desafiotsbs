@@ -12,7 +12,7 @@
                 <div class="section">
                     <div class="card-alert">
                         <div class="card-content purple-text">
-                            <a href="https://api.whatsapp.com/send?phone=558893174685" target="_blank " class="btn">
+                            <a href="https://api.whatsapp.com/send?phone=5588996620215" target="_blank " class="btn">
                                 Suporte Técnico </a>
                         </div>
                     </div>
