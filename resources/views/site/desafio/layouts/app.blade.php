@@ -22,10 +22,11 @@
 <body>
   <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-light sidenav-active-square">
     <div class="brand-sidebar">
-      <h1 class="logo-wrapper">
+      <h5 class="logo-wrapper">
         <a class="brand-logo darken-1" href="index.html">
           
-          <span class="logo-text hide-on-med-and-down">Desafio de 7 Dias</span></a><a class="navbar-toggler" href="#"></a></h1>
+          <span class="logo-text hide-on-med-and-down" style="font-size:18px">Desafio Sono do Bebê </span></a><a class="navbar-toggler" href="#"></a></h5>
+          
     </div>
     <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
       <li class="bold"><a class="waves-effect waves-cyan " href="{{route('desafio.index')}}"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Desafios</span></a>

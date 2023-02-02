@@ -143,7 +143,7 @@
                                                                         <textarea class="materialize-textarea" readonly> {{ $message->content }}</textarea>
                                                                     @endif
                                                                     @if ($message->type == 2)
-                                                                        <label>Dr. Odilo:</label>
+                                                                        <label>Terapeuta:</label>
                                                                         <textarea class="materialize-textarea" readonly> {{ $message->content }}</textarea>
                                                                     @endif
                                                                 @endforeach
@@ -195,7 +195,7 @@
 
                                                     <p> O CHAT abaixo ficará disponível por 60 Dias após a resposta do seu
                                                         desafio!</p>
-                                                    <p> Você só pode colocar uma mensagem até o dr Odilo responder.</p>
+                                                    <p> Você só pode colocar uma mensagem até a Terapeuta responder.</p>
                                                     <p> Esse CHAT finalizará no dia
                                                         {{ \Carbon\Carbon::parse($challenge->answered_at)->addDays(59)->format('d/m/y') }}
                                                     </p>
@@ -230,7 +230,7 @@
                                                                     <textarea class="materialize-textarea" readonly> {{ $message->content }}</textarea>
                                                                 @endif
                                                                 @if ($message->type == 2)
-                                                                    <label>Dr. Odilo:</label>
+                                                                    <label>Terapeuta:</label>
                                                                     <textarea class="materialize-textarea" readonly> {{ $message->content }}</textarea>
                                                                 @endif
                                                             @endforeach
@@ -250,7 +250,7 @@
                                                                     <textarea class="materialize-textarea" readonly> {{ $message->content }}</textarea>
                                                                 @endif
                                                                 @if ($message->type == 2)
-                                                                    <label>Dr. Odilo:</label>
+                                                                    <label>Terapeuta:</label>
                                                                     <textarea class="materialize-textarea" readonly> {{ $message->content }}</textarea>
                                                                 @endif
                                                             @endforeach
@@ -969,7 +969,7 @@
         @if ($challenge->formulario()->first()->conclusao == 'FEITO')
             <tr>
                 <td> CONCLUSÃO </td>
-                <td> Aguarde o contato do Dr Odilo <a href="{{ route('analyze.conclusao', $challenge->id) }}"
+                <td> Aguarde o contato da Terapeuta <a href="{{ route('analyze.conclusao', $challenge->id) }}"
                         class="btn waves-effect waves-light red "> Conclusão </a></td>
             </tr>
         @else

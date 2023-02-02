@@ -6,7 +6,9 @@
 
 
 @section('content')
+<!--
 <div id="modal1" class="modal">
+    
         <div class="modal-content">
             <h4>Passo 4 - Associações</h4>
            
@@ -16,7 +18,7 @@
             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
         </div>
     </div>
-
+-->
     <div class="row">
 
         <div class="col s12">

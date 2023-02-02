@@ -6,6 +6,7 @@
 
 
 @section('content')
+<!--
     <div id="modal1" class="modal">
         <div class="modal-content">
             <h4>Passo 3: - Despertar:</h4>
@@ -20,7 +21,7 @@ E após o preenchimento do seu desafio, você poderá tirar todas as suas dúvid
             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
         </div>
     </div>
-
+-->
     <div class="row">
 
 

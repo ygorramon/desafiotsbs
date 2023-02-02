@@ -12,6 +12,7 @@
 
 <div class="row">
     <div class="col s12">
+        <!--
     <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>PASSO 1 - VÍDEO EXPLICATIVO</h4>
@@ -24,7 +25,7 @@
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
     </div>
   </div>
-
+-->
         <div class="card">
             @if ($errors->any())
             <div class="row">

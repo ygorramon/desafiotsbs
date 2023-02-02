@@ -24,7 +24,7 @@
                                 <div id="bordered-table" class="card card card-default scrollspy">
                                     <div class="card-content">
 
-                                        <h5 class="task-card-title mb-3 ">Central de Dúvidas - Odilo Queiroz </h5>
+                                        <h5 class="task-card-title mb-3 ">Central de Dúvidas  </h5>
                                         <h5 class="task-card-title mb-3 ">Módulos</h5>
 
                                         <ul class="collection">
