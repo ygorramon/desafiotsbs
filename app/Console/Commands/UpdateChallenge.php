@@ -42,7 +42,7 @@ class UpdateChallenge extends Command
     {
         $headers = ['Desafio', 'Enviado'];
 
-       Challenge::where('answered_at','<',now()->subDays(59))->update(['status' => 'FINALIZADO']);
+       Challenge::where('answered_at','<',now()->subDays(30))->update(['status' => 'FINALIZADO']);
        Client::where('created_at', '<', now()->subDays(6))->update(['liberado' => '1']);
        
 

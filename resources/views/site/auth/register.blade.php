@@ -87,7 +87,7 @@
                 <div class="input-field col s12">
                   <i class="material-icons prefix pt-2">mail_outline</i>
                   <input id="email" type="email" name="email" class="validate" value="{{ old('email') }}"  required="">
-                  <label for="email">Email da Hotmart</label>
+                  <label for="email">Email</label>
                 </div>
               </div>
               <div class="row margin">

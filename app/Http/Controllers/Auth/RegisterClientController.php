@@ -30,7 +30,7 @@ class RegisterClientController extends Controller
 public $message=[
     'email.required' => 'O campo e-mail é de preenchimento obrigatório',
     'email.email' => 'Informe um e-mail válido',
-    'email.exists' => 'Informe um e-mail da Hotmart',
+    'email.exists' => 'Informe seu e-mnail',
     'name.required' => 'O campo Nome da Mãe é de preenchimento obrigatório',
     'name.max' => 'O campo Nome da Mãe permite no máximo 255 caracteres',
     'nameBaby.required' => 'O campo Nome do Bebê é de preenchimento obrigatório',

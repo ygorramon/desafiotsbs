@@ -35,7 +35,7 @@
                   @if($challenge->status=='ANALISE')
                   <div class="row">
                     <div class="col s12">
-                      <h4 class="card-title">O Dr. Odilo está analisando seu Desafio! </h4>
+                      <h4 class="card-title">A Terapeuta está analisando seu Desafio! </h4>
                     </div>
                     <div class="col s12">
                       <h4 class="card-title">Em breve você receberá a análise! </h4>
@@ -222,8 +222,8 @@
       
       <p> O CHAT abaixo ficará disponível por 30 Dias após a resposta do seu desafio!</p>
       <p> Você só pode colocar uma mensagem até a Terapeuta responder.</p>
-      <p> Esse CHAT finalizará no dia {{\Carbon\Carbon::parse($challenge->answered_at)->addDays(59)->format('d/m/y')}} </p>
-      <p> Restam {{\Carbon\Carbon::parse($challenge->answered_at)->addDays(59)->diffInDays(now())}}</b> Dias de Chat </p>
+      <p> Esse CHAT finalizará no dia {{\Carbon\Carbon::parse($challenge->answered_at)->addDays(30)->format('d/m/y')}} </p>
+      <p> Restam {{\Carbon\Carbon::parse($challenge->answered_at)->addDays(30)->diffInDays(now())}}</b> Dias de Chat </p>
       <p> Após esse prazo, você poderá realizar um novo desafio </p>
       </div>
     </div>
@@ -234,7 +234,7 @@
                         <div class="collapsible-header"><i class="material-icons">message</i>Chat  </div>
                         <div class="collapsible-body">
                           @if($challenge->chat()->first()==null)
-                          Envie uma mensagem ao Dr. Odilo Queiroz sobre seu desafio!
+                          Envie uma mensagem para a Terapeuta sobre seu desafio!
                           <form action="{{route('challenge.chat.store', $challenge->id)}}" method="POST">
                             @csrf
                             <label >Responder:</label>
@@ -257,7 +257,7 @@
                           @endif
                           @endforeach
                          
-                          Aguarde o retorno do Dr. Odilo!
+                          Aguarde o retorno da Terapeuta!
 <br>
                            <a class="btn btn-primary"href="{{route('client.message.edit',$challenge->chat()->first()->messages->last()->id)}}">Editar última mensagem</a><br>
                           @endif
