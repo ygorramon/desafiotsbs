@@ -23,6 +23,9 @@
             <div class="form-group">
                 <label>* Tempo de Expiração:</label>
                 <select name="expire" class="form-control">
+                    <option value="45">45 Dias</option>
+                    <option value="60">60 Dias</option>
+                    <option value="120">120 Dias</option>
                     <option value="180">180 Dias</option>
                     <option value="365">365 Dias</option>
                 </select>

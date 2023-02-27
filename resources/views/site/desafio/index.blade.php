@@ -13,7 +13,7 @@
                 <div id="card-widgets">
                     <div class="row">
                         <div class="col s12">
-                        <div id="modal1" class="modal">
+                        <!--div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Informação</h4>
       <p>O número do Suporte Técnico do Desafio de 7 Dias mudou: </p>

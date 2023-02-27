@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Client;
+use Illuminate\Support\Facades\Auth;
 
 class ClientsController extends Controller
 {
@@ -23,7 +24,7 @@ class ClientsController extends Controller
     public function index()
     {
 
-        $clients = $this->repository->latest()->paginate();
+        $clients = $this->repository->where('user_id',Auth::user()->id)->latest()->paginate();
 
         return view('admin.clients.index', compact('clients'));
     }
@@ -56,6 +57,7 @@ class ClientsController extends Controller
         $client = $this->repository->create([
             'email' => $request->email,
             'active' => 1,
+            'user_id' => Auth::user()->id,
             'expireAt' => now()->addDays($request->expire),
         ]);
 

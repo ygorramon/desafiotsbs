@@ -237,8 +237,8 @@ return [
         ],
 
         // Sidebar items:
-        ['header' => 'Respostas'],
-        [
+      //  ['header' => 'Respostas'],
+     /*   [
             'text' => 'Respostas',
             'url'  => 'admin/situacoes',
         ],
@@ -250,7 +250,7 @@ return [
 
             'submenu' => [],
         ],
-        
+        */
         ['header' => 'Desafios'],
         
         [
@@ -282,11 +282,12 @@ return [
                     'url'     => '/admin/clients',
                     'icon'    => 'fas fa-fw fa-eye',
                 ],
-                [
+             /*   [
                     'text'    => 'Ativos',
                     'url'     => '/admin/clients-ativos',
                     'icon'    => 'fas fa-fw fa-eye',
                 ],
+                */
                 [
                     'text' => 'Cadastrar',
                     'url'  => '/admin/clients/create',
@@ -298,7 +299,7 @@ return [
             'text'    => 'Relatórios',
             'icon'    => 'fas fa-fw fa-user',
             'submenu' => [
-               
+              /* 
                 [
                     'text'    => 'Visualizar',
                     'url'     => '/admin/relatorios',
@@ -324,6 +325,7 @@ return [
                     'url'     => '/admin/relatorios/chats-atrasados',
                     'icon'    => 'fas fa-fw fa-eye',
                 ],
+                */
                 [
                     'text'    => 'Buscar Cliente',
                     'url'     => '/admin/relatorios/clients',

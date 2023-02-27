@@ -47,7 +47,7 @@ class ChallengeController extends Controller
         $client = Auth::guard('clients')->user();
         $challenge = $client->challenges()->create([
             'status' => 'INICIADO',
-            'tipo' => '1'
+          
         ]);
         return redirect()->route('desafio.show', $challenge->id);
     }

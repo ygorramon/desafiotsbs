@@ -20,11 +20,12 @@ class ChallengeController extends Controller
 
    public function availables()
    {
-      $challenges = $this->repository->where('status', 'ENVIADO')
+      $challenges = $this->repository->join('clients', 'clients.id','challenges.client_id' )->where('status', 'ENVIADO')
       ->where('tipo','=',null)
-      ->where('user_id', null)
+      ->where('clients.user_id',Auth::user()->id)
+      ->where('challenges.user_id', null)
       ->orderBy('sended_at')->paginate();
-      
+     
       return view('admin.challenges.availables.index', compact('challenges'));
    }
 

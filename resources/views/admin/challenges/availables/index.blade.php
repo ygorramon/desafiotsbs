@@ -25,7 +25,7 @@
                 <tr>
                     <th>Nome da Mãe</th>
                     <th>Nome do Bebê</th>
-                     <th>Turma</th>
+                     <th>Terapeuta</th>
                     <th>Bônus</th>
                     <th>Data de Envio</th>
                     <th> Outros desafios </th>
@@ -37,7 +37,7 @@
                 <tr>
                      <td>{{ $challenge->client->name }} <br>({{ $challenge->client->email}})</td>
                     <td>{{ $challenge->client->nameBaby }}</td>
-                   <td>{{ $challenge->client->class }}</td>
+                   <td>{{ $challenge->client->user->name ?? '' }}</td>
 
                     <td> @if($challenge->client->bonus=='1')
                     <span class="badge bg-green">   SIM </span>

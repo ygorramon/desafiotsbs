@@ -26,7 +26,7 @@
                 <tr>
                     <th>Nome da Mãe</th>
                     <th>E-mail</th>
-                    <th>Turma</th>
+                    <th>Terapeuta</th>
                     <th>Ativo</th>
                     <th>Expira</th>
                     <th width="270">Ações</th>
@@ -37,7 +37,7 @@
                 <tr>
                     <td>{{ $client->name }}</td>
                     <td>{{ $client->email }}</td>
-                     <td>{{ $client->class }}</td>
+                     <td>{{ $client->user->name ?? '' }}</td>
                     @if($client->active==0)
                     <td><span class="badge badge-danger right">Não</span></td>
                     @endif

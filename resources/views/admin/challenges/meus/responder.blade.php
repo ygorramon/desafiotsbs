@@ -87,18 +87,7 @@
             </div>
         </div>
             <textarea name="passo1" class="form-control" style="height:auto">
-            {{$passo1->mensagem}}
-            @if($passo1->orientacao=="")
-            @else
-
-            {{$passo1->orientacao}}
-            @endif
-
-            @if($passo1->sinalSono=="")
-            @else
-            
-            {{$passo1->sinalSono}}
-            @endif
+           
         </textarea>
         </div>
     </div>
@@ -154,23 +143,7 @@
 
                     </div>
             <textarea name="passo2" class="form-control"  style="height:auto">
-            {{$passo2->mensagem}}
-            @if($passo2->imaturidade=="")
-            @else
-            • Exterogestação: {{ $passo2->imaturidade }}
-            @endif
-            • FOME: {{ $passo2->fome}}
-
-            • DOR: {{$passo2->dor}}
-
-            • SALTO DE DESENVOLVIMENTO: {{$passo2->salto}}
-            @if($passo2->angustia=="")
-            @else
-            • ANGÚSTIA DA SEPARAÇÃO: {{$passo2->angustia}}
-            @endif
-            • TELAS: {{$passo2->telas}}
-
-            • STRESS: {{$passo2->stress}}</textarea>
+           </textarea>
             
         </div>
     <div class="card card-info">
@@ -254,8 +227,7 @@
 
             </div>
             <textarea name="passo3_despertar" class="form-control" style="height:auto" >
-            • Horário de Despertar: {{$passo3->despertar}}
-            • Ritual do Bom dia: {{$passo3->ritualBomDia}}
+            
             </textarea>
         </div>
         
@@ -266,7 +238,6 @@
         </div>
         <div class="card-body">
             <textarea name="passo3_rotina_alimentar" class="form-control" style="height:auto">
-            {{$passo3->rotinaAlimentar}}
 
             </textarea>
         </div>
@@ -275,49 +246,7 @@
         </div>
         <div class="card-body">
             <textarea name="passo3_rotina_sonecas" class="form-control" style="height:auto">
-            @if($passo3->gastoEnergia=="")
-    
-    @else
-    • Gasto de Energia: {{ $passo3->gastoEnergia }}
-    @if($passo3->gastoEnergiaChoro=="")
-    @else
-    {{$passo3->gastoEnergiaChoro}}
-    @endif
-    @if($passo3->gastoEnergiaAcordouCedo=="")
-    @else
-    {{$passo3->gastoEnergiaAcordouCedo}}
-    @endif
-    @if($passo3->gastoEnergiaDespertares=="")
-    @else
-    {{$passo3->gastoEnergiaDespertares}}
-    @endif
-    @if($passo3->gastoEnergiaConclusao=="")
-    @else
-    {{$passo3->gastoEnergiaConclusao}}
-    @endif
-    @endif
-
-    • Duração da Soneca: 
-    @if($passo3->sonecasCurtas=="")
-    @else
-    {{$passo3->sonecasCurtas}}
-    @endif
-    @if($passo3->duracaoSonecas=="")
-    @else
-    {{$passo3->duracaoSonecas}}
-    @endif
-    @if($passo3->duracaoSonecasDespertar=="")
-    @else
-    {{$passo3->duracaoSonecasDespertar}}
-    @endif
-    @if($passo3->duracaoSonecasFome=="")
-    @else
-    {{$passo3->duracaoSonecasFome}}
-    @endif
-    @if($passo3->duracaoSonecasRitual=="")
-    @else
-    {{$passo3->duracaoSonecasRitual}}
-    @endif
+          
             </textarea>
         </div>
         <div class="card-header">
@@ -325,12 +254,7 @@
         </div>
         <div class="card-body">
             <textarea name="passo3_ambiente_sonecas" class="form-control" style="height:auto">
-            • Luzes:
-    {{$passo3->ambienteSonecasLuzes}}
-    • Ruídos:
-    {{$passo3->ambienteSonecasRuidos}}
-    • Temperatura:
-    {{$passo3->ambienteSonecasTemperatura}}
+           
             </textarea>
         </div>
         <div class="card-header">
@@ -338,7 +262,7 @@
         </div>
         <div class="card-body">
             <textarea name="passo3_sono_noturno" class="form-control" style="height:auto">
-            {{$passo3->ritualNoturno}}
+         
             </textarea>
         </div>
         <div class="card-header">
@@ -346,11 +270,7 @@
         </div>
         <div class="card-body">
             <textarea name="passo3_ambiente_noturno" class="form-control" style="height:auto">
-            • LUZES: {{ $passo3->ambienteLuzes}} 
-
-• RUÍDOS: {{$passo3->ambienteRuidos}}
-
-• TEMPERATURA: {{$passo3->ambienteTemperatura}}
+          
             </textarea>
         </div>
 

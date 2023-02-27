@@ -39,26 +39,27 @@ class EventServiceProvider extends ServiceProvider
                 'key' =>'desafios-disponiveis',
                 'text' => 'Disponíveis',
                 'url' => '/admin/desafios/disponiveis',
-                'label' => Challenge::where('status','ENVIADO')->where('tipo', '=', null)->count(),
+               
             ]);
-            $event->menu->addIn('desafios', [
+          /*  $event->menu->addIn('desafios', [
                 'key' =>'desafios-novos-disponiveis',
                 'text' => 'Novos Disponíveis',
                 'url' => '/admin/desafios/novo_disponiveis',
                 'label' => Challenge::where('status','ENVIADO')->where('tipo', '=', '1')->count(),
             ]);
+            */
             $event->menu->addIn('desafios', [
                 'key' =>'meus-desafios',
                 'text'    => 'Meus Desafios',
                 'url'     => '/admin/desafios/meus',
-                'label' =>Auth::user()->challenges()->where('status','ANALISE')->orWhere('status','RESPONDIDO')->count(),
+              
         
             ]);
             $event->menu->addIn('desafios', [
                 'key' =>'desafios-finalizados',
                 'text' => 'Finalizados',
                 'url'  => '#',
-                'label' =>Auth::user()->challenges()->where('status','FINALIZADO')->count(),
+               
 
             ]);
 
