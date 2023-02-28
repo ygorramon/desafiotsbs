@@ -31,7 +31,7 @@
     <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
       <li class="bold"><a class="waves-effect waves-cyan " href="{{route('desafio.index')}}"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Desafios</span></a>
       </li>
-
+<!--
        <li class="bold"><a class="waves-effect waves-cyan " href="{{route('doubtCenter.index')}}"><i class="material-icons">help</i><span class="menu-title" data-i18n="Mail">Perguntas Frequentes</span></a>
       </li>
  <li class="bold"><a class="waves-effect waves-cyan " href="{{route('my.queries')}}"><i class="material-icons">help_outline</i><span class="menu-title" data-i18n="Mail">Minhas Perguntas</span></a>
@@ -39,7 +39,7 @@
       <li class="bold"><a class="waves-effect waves-cyan " href="https://api.whatsapp.com/send?phone=5588996620215" target="_blank "><i class="material-icons">headset_mic</i><span class="menu-title" data-i18n="Mail">Suporte Técnico</span></a>
       </li>
       </li>
-
+    -->
       <li class="bold"><a class="waves-effect waves-cyan " href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
 
           <i class="material-icons">arrow_back</i>
